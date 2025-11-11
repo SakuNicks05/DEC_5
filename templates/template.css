@@ -1,0 +1,5 @@
+@media (min-width: 360px) and (max-width: 480px){
+    body {
+        font-size: 15px;
+    }
+}
