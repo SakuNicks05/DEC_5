@@ -1,0 +1,145 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.first-cat {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    visibility: hidden;
+}
+
+/* CAT INDIVIDUAL SIZES */
+
+.first {
+    width: 1100px;
+    margin-left: -18em;
+    /* visibility: unset; */
+}
+
+.second {
+    /* visibility: unset; */
+    width: 1100px;
+}
+
+.third {
+    /* visibility: unset; */
+    width: 1100px;
+    margin-left: -19em;
+}
+
+.fourth {
+    /* visibility: unset; */
+    width: 1200px;
+    margin-top: -8em;
+}
+
+.fifth {
+    /* visibility: unset; */
+    width: 1300px;
+    margin-left: -28em;
+}
+
+.sixth {
+    /* visibility: unset; */
+    width: 1100px;
+    margin-left: -8em;
+}
+
+.seventh {
+    /* visibility: unset; */
+    width: 1100px;
+    margin-top: -5em;
+    margin-left: -3em;
+}
+
+.eighth {
+    /* visibility: unset; */
+    width: 1200px;
+    margin-left: -10em;
+}
+
+.ninth {
+    /* visibility: unset; */
+    width: 1300px;
+    margin-left: -19em;
+}
+
+.tenth {
+    /* visibility: unset; */
+    width: 1200px;
+    margin-top: -2em;
+}
+
+.eleventh {
+    /* visibility: unset; */
+    width: 1100px;
+    margin-left: -19em;
+    margin-top: -5em;
+}
+
+.twelfth {
+    /* visibility: unset; */
+    width: 1300px;
+    margin-left: -10em;
+}
+
+.thirteenth {
+    /* visibility: unset; */
+    height: 1000px;
+    width: 700px;
+    margin-top: 7em;
+    margin-left: 2em;
+}
+
+.fourteenth {
+    /* visibility: unset; */
+    width: 1500px;
+    margin-top: -2em;
+}
+
+.fifteenth {
+    /* visibility: unset; */
+    width: 1200px;
+    margin-left: -20em;
+}
+
+.oopy {
+    /* visibility: unset; */
+    width: 1100px;
+    margin-left: -3em;
+}
+
+/* CHAT BUBBLES */
+
+.chat-bubbles {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: auto;
+    z-index: 1000;
+}
+
+.chat-bubbles img {
+    margin: 0;
+    display: inline-block;
+}
+
+.one {
+    visibility: unset;
+    border: 2px solid orange;
+    position: absolute;
+    height: 300px;
+    width: 300px;
+}
