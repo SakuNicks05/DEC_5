@@ -22,8 +22,8 @@ body {
 
 .first {
     width: 1100px;
-    margin-left: -18em;
-    /* visibility: unset; */
+    margin-left: -20em;
+    visibility: unset;
 }
 
 .second {
@@ -122,24 +122,91 @@ body {
 /* CHAT BUBBLES */
 
 .chat-bubbles {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
     width: auto;
     height: auto;
     z-index: 1000;
 }
 
 .chat-bubbles img {
-    margin: 0;
-    display: inline-block;
+    display: block;
+    height: 500px;
+    width: 500px;
 }
 
 .one {
-    visibility: unset;
-    border: 2px solid orange;
-    position: absolute;
-    height: 300px;
-    width: 300px;
+    visibility: visible;
+    margin-top: -50em;
+    margin-left: 9em;
+    transform: scaleX(-1);
 }
+
+.two {
+    visibility: hidden;
+}
+
+.three {
+    visibility: hidden;
+}
+
+.four {
+    visibility: hidden;
+}
+
+.five {
+    visibility: hidden;
+}
+
+.six {
+    visibility: hidden;
+}
+
+.seven {
+    /* visibility: hidden; */
+}
+
+.eight {
+    visibility: hidden;
+}
+
+.nine {
+    visibility: hidden;
+}
+
+.nine {
+    visibility: hidden;
+}
+
+.nine {
+    visibility: hidden;
+}
+
+.ten {
+    visibility: hidden;
+}
+
+.eleven {
+    visibility: hidden;
+}
+
+.twelve {
+    visibility: hidden;
+}
+
+.thirteen {
+    visibility: hidden;
+}
+
+.fourteen {
+    visibility: hidden;
+}
+
+.fifteen {
+    visibility: hidden;
+}
+
+.oop {
+    visibility: hidden;
+}
+
+
