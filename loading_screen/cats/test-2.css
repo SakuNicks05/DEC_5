@@ -1,0 +1,320 @@
+body {
+    background-color: black;
+    margin: 0;
+    overflow-y: hidden;
+}
+
+.container {
+    position: relative;
+}
+
+.cats,
+.bubble {
+    visibility: hidden;
+}
+
+.first-chat,
+.first-cat {
+    display: flex;
+    visibility: visible;
+}
+.first-cat {
+    position: fixed;
+    width: 1200px;
+    margin-left: -28rem;
+    margin-top: 25rem;
+}
+
+.first-chat {
+    visibility: hidden;
+    position: fixed;
+    margin-top: 65rem;
+    margin-left: 15rem;
+}
+
+.second-chat,
+.second-cat {
+    display: flex;
+    visibility: visible;
+}
+
+.second-cat {
+    position: fixed;
+    width: 1500px;
+    margin-top: -5rem;
+}
+
+.second-chat {
+    visibility: hidden;
+    position: fixed;
+    margin-top: 15rem;
+    margin-left: 13rem;
+}
+
+.third-chat,
+.third-cat {
+    display: flex;
+    visibility: visible;
+}
+
+.third-cat {
+    position: fixed;
+    width: 1500px;
+    margin-left: -49rem;
+    margin-top: 4rem;
+}
+
+.third-chat {
+    visibility: hidden;
+    position: fixed;
+    margin-top: 5rem;
+    margin-left: 20rem;
+}
+
+.fourth-chat,
+.fourth-cat {
+    display: flex;
+    visibility: visible;
+}
+
+.fourth-cat {
+    position: fixed;
+    width: 1300px;
+    margin-top: -10rem;
+}
+
+.fourth-chat {
+    visibility: hidden;
+    position: fixed;
+    margin-top: 70rem;
+    margin-left: 10rem;
+}
+
+
+
+.fifth-chat,
+.fifth-cat {
+    position: absolute;
+    display: flex;
+    visibility: visible;
+}
+
+.fifth-cat {
+    height: 1500px;
+    width: 1500px;
+    margin-left: -48rem;
+}
+
+.fifth-chat {
+    visibility: hidden;
+    margin-top: 60rem;
+    margin-left: 20rem;
+}
+
+.sixth-chat,
+.sixth-cat {
+    position: absolute;
+    display: flex;
+    visibility: visible;
+}
+
+.sixth-cat {
+    height: 1200px;
+    width: 1200px;
+    margin-left: -15rem;
+    margin-top: -2rem;
+}
+
+.sixth-chat {
+    visibility: hidden;
+    width: 350px;
+    transform: rotate(14deg);
+    margin-top: 15rem;
+    margin-left: 10rem;
+}
+
+.seventh-chat,
+.seventh-cat {
+    position: absolute;
+    display: flex;
+    visibility: visible;
+}
+
+.seventh-cat {
+    height: 1200px;
+    width: 1200px;
+    margin-left: -4rem;
+    margin-top: -2rem;
+}
+
+.seventh-chat {
+    visibility: hidden;
+    width: 350px;
+    transform: rotate(14deg);
+    margin-top: 23rem;
+    margin-left: 10rem;
+}
+
+.eight-chat,
+.eight-cat {
+    position: absolute;
+    display: flex;
+    visibility: visible;
+}
+
+.eight-cat {
+    height: 1500px;
+    width: 1300px;
+    margin-left: -22rem;
+    margin-top: 5rem;
+}
+
+.eight-chat {
+    visibility: hidden;
+    width: 350px;
+    margin-top: 70rem;
+    margin-left: 20rem;
+}
+
+.ninth-chat {
+    position: absolute;
+    display: flex;
+    visibility: hidden;
+    width: 300px;
+    transform: rotate(30deg);
+    margin-top: 20rem;
+    margin-left: 15rem;
+}
+
+.next-cat,
+.ten-chat {
+    position: absolute;
+    display: flex;
+    visibility: visible;
+}
+
+.next-cat {
+    height: 1400px;
+    width: 1100px;
+    margin-left: -15rem;
+    margin-top: -2rem;
+}
+
+.ten-chat {
+    visibility: hidden;
+    width: 250px;
+    transform: rotate(14deg);
+    margin-top: 15rem;
+    margin-left: 18rem;
+}
+
+.next-ten-chat,
+.ten-cat {
+    position: absolute;
+    display: flex;
+    visibility: visible;
+}
+
+.ten-cat {
+    height: 1500px;
+    width: 1400px;
+    margin-top: -5rem;
+}
+
+.next-ten-chat {
+    visibility: hidden;
+    width: 250px;
+    transform: rotate(14deg);
+    margin-top: 18rem;
+    margin-left: 10rem;
+}
+
+.eleven-chat,
+.eleven-cat {
+    position: absolute;
+    display: flex;
+    visibility: visible;
+}
+
+.eleven-cat {
+    height: 1500px;
+    width: 1400px;
+    margin-left: -42rem;
+    margin-top: -3rem;
+}
+
+.eleven-chat {
+    visibility: hidden;
+    width: 300px;
+    transform: rotate(14deg);
+    margin-top: 50rem;
+    margin-left: 18rem;
+}
+
+.twelfth-chat,
+.twelfth-cat {
+    position: absolute;
+    display: flex;
+    visibility: visible;
+}
+
+.twelfth-cat {
+    height: 2100px;
+    margin-top: 10rem;
+    margin-left: 9rem;
+    transform: rotate(50deg);
+}
+
+.twelfth-chat {
+    visibility: hidden;
+    width: 300px;
+    transform: rotate(14deg);
+    margin-top: 65rem;
+    margin-left: 15rem;
+}
+
+.thirteen-chat,
+.thirteen-cat {
+    position: absolute;
+    display: flex;
+    visibility: visible;
+}
+
+.thirteen-cat {
+    height: 800px;
+    width: 900px;
+    margin-left: -10rem;
+    margin-top: 6rem;
+}
+
+.thirteen-chat {
+    visibility: hidden;
+    width: 280px;
+    transform: rotate(14deg);
+    margin-top: 15rem;
+    margin-left: 15rem;
+}
+
+.fourteen-chat,
+.fourteen-cat {
+    position: absolute;
+    display: flex;
+    visibility: visible;
+}
+
+.fourteen-cat {
+    /* height: 800px;
+    width: 900px; */
+    transform: (-1);
+    height: 1500px;
+    margin-left: 10rem;
+    margin-top: 6rem;
+}
+
+/* .fourteen-chat {
+    visibility: hidden;
+    width: 280px;
+    transform: rotate(14deg);
+    margin-top: 15rem;
+    margin-left: 15rem;
+} */
