@@ -303,18 +303,20 @@ body {
 }
 
 .fourteen-cat {
-    /* height: 800px;
-    width: 900px; */
-    transform: (-1);
-    height: 1500px;
-    margin-left: 10rem;
-    margin-top: 6rem;
+    margin-left: 5rem;
+    transform: scaleX();
 }
 
-/* .fourteen-chat {
-    visibility: hidden;
-    width: 280px;
-    transform: rotate(14deg);
+/* .fourteen-cat {
+    height: 1500px;
+    margin-left: -25rem;
+    margin-top: 6rem;
+} */
+
+.fourteen-chat {
+    /* visibility: hidden; */
+    width: 300px;
     margin-top: 15rem;
     margin-left: 15rem;
-} */
+}
+
